@@ -14,7 +14,6 @@ try
     {
         Console.SetCursorPosition(width, height);
         consoleKey = Console.ReadKey(true).Key;
-        
 
         switch (consoleKey)
         {
@@ -41,6 +40,7 @@ try
 
     } while (Convert.ToBoolean(Console.ReadKey().Key));
 }
+
 catch
 {
     Console.Write("The value must be greater than or equal to zero n\and less than the console's buffer size in that dimension.");
